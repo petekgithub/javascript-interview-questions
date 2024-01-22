@@ -9,7 +9,7 @@ const append = (arr, el) => {
   return [...arr, el];
 };
 console.log(append([1, 2], 4));
-console.log(append(numbs, 4));
+console.log(append(nums, 4));
 
 // arr.push() -> modifies old array, doesn't create a new array
 // in here, using.push is not safe, using spread operator make sense

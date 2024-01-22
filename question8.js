@@ -35,3 +35,12 @@ isNameExist("petek", users); // true
 
 //2
 const isNameExists = (name, arr) => arr.some((el) => el.name === name);
+
+function nameIsExist(name, users) {
+  let exists = false;
+  for (let i = 0; i < users.length; i++) {
+    if (users[i].name === name) {
+      exists = true;
+    }
+  }
+}
